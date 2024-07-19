@@ -5,3 +5,4 @@ ipython==8.26.0
 getenv==0.2.0
 python-dotenv==1.0.1
 black==24.4.2
+djangorestframework==3.15.2
