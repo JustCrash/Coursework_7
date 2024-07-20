@@ -13,3 +13,4 @@ django-celery-beat==2.6.0
 setuptools==71.0.3
 celery==5.4.0
 gevent==24.2.1
+redis==5.0.7
