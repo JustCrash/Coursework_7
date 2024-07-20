@@ -144,3 +144,7 @@ CELERY_BEAT_SCHEDULE = {
     },
 }
 CELERY_BROKER_CONNECTION_RETRY_ON_STARTUP = True
+
+
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_URL = 'https://api.telegram.org/bot'
