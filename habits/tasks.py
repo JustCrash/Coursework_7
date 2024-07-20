@@ -10,7 +10,7 @@ from users.models import User
 
 
 @shared_task
-def send_remainder():
+def send_telegram():
     """
     Отправка в telegram,
     когда и какие привычки нужно сделать.
