@@ -52,6 +52,12 @@ class Habit(models.Model):
         'где 1 - один раз в неделю, а 7 - это каждый день.',
         **NULLABLE,
     )
+    reward = models.CharField(
+        max_length=200,
+        verbose_name='Награда за выполнение привычки',
+        help_text='Укажите награду за выполнение привычки',
+        **NULLABLE,
+    )
     duration = models.DurationField(
         verbose_name='Продолжительность выполнения привычки',
         help_text='Укажите продолжительность выполнения привычки',
