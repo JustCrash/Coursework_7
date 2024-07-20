@@ -64,6 +64,7 @@ class HabitTestCase(APITestCase):
                     "place": "Дом",
                     "pleasant_habit_sign": True,
                     "related_habit": None,
+                    "reward": None,
                     "time": "2024-07-13T10:00:00Z",
                 }
             ],
